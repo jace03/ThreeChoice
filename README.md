@@ -1,32 +1,19 @@
-# React + TypeScript + Vite
+# ThreeChoice
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+3 websites to choose from.
 
-Currently, two official plugins are available:
+A frontend-only site (TypeScript + React + Vite, no backend). The home page offers 3 clickable options, each leading to a distinct sample website, so a friend can preview all 3 and pick a direction for their real site.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Structure
 
-## React Compiler
+- `src/pages/Home` — the picker home page
+- `src/sites/site-a`, `site-b`, `site-c` — the 3 sample sites
+- `openspec/` — spec-driven planning artifacts (see the `three-choice-mvp` change)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Development
 
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
 ```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+npm install
+npm run dev
+npm run build
+```
