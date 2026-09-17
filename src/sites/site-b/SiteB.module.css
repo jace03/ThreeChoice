@@ -1,0 +1,37 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0f172a;
+  font-family: 'Georgia', serif;
+  padding: 2rem;
+}
+
+.card {
+  background: #1e293b;
+  border-radius: 1rem;
+  padding: 3rem;
+  max-width: 28rem;
+  text-align: center;
+  color: #f8fafc;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.badge {
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fbbf24;
+}
+
+.back {
+  display: inline-block;
+  margin-top: 1.5rem;
+  color: #fbbf24;
+  text-decoration: none;
+}
+
+.back:hover {
+  text-decoration: underline;
+}

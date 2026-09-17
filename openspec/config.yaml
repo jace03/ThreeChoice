@@ -1,0 +1,41 @@
+schema: spec-driven
+
+context: |
+  Project: "ThreeChoice" (3 choice), a CoastNCode project.
+  Frontend-only, no backend: TypeScript + React (Vite).
+  Concept: a single site with a home page offering 3 clickable options.
+  Each option leads to a distinct sample website built for a friend, so
+  they can browse all 3 and pick the one they like as the direction for
+  their real site.
+  This is a for-fun project that may grow into something real later.
+
+# Per-artifact rules (optional)
+# This is shown to AI when creating artifacts.
+# Add your tech stack, conventions, style guides, domain knowledge, etc.
+# Example:
+#   context: |
+#     Tech stack: TypeScript, React, Node.js
+#     We use conventional commits
+#     Domain: e-commerce platform
+
+# Per-artifact rules (optional)
+# Add custom rules for specific artifacts.
+# Example:
+#   rules:
+#     proposal:
+#       - Keep proposals under 500 words
+#       - Always include a "Non-goals" section
+#     tasks:
+#       - Break tasks into chunks of max 2 hours
+
+# Per-operation guidance (optional)
+# Add advisory guidance for how apply and archive work should be conducted.
+# This is separate from artifact rules above.
+# Example:
+#   operations:
+#     apply:
+#       guidance:
+#         - Keep test summaries concise
+#     archive:
+#       guidance:
+#         - Summarize the archive outcome before finishing
